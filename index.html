@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./style.css">
     <script src="./app.js"></script>
 </head>
-<body onmouseenter="detectCursorSide()">
+<body onload="detectSide()">
     <!-- medical research company called Coastal-->
 
     <!-- nav bar -->
@@ -30,7 +30,11 @@
             <h2 class="header__subtitle">Only Getting Brighter.</h2>
         </div>
         <div class="header__btns">
-            <a href="#" class="btn btn--white">Clients</a>
+            <a href="#" class="btn" onclick="detectSide()">Clients</a>
+        </div>
+        <div class="header__desc">
+            <h1 class="header__desc--title">Companies</h1>
+            <h2 class="header__desc--text">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br>Voluptatibus accusantium<br>tempora exercitationemvoluptatem<br>explicabo. Fuga laboriosam iste odio<br>repellat. Accusamus?</h2>
         </div>
     </header>
     <section class="client">

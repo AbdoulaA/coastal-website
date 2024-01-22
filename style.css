@@ -122,18 +122,67 @@ header {
 .header__subtitle {
     font-size: 40px;
     position: absolute;
-    bottom: 125px;
+    bottom: 50px;
     color: #f6c236
 }
 
-.btn {
+.header__btns {
     position: absolute;
+    top: 40%;
+    height: 75px;
+    background-color:#0f3252;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
+.header__desc {
+    position: absolute;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__desc--text {
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 500;
+    text-align: center;
+    background-color:#0f3252;
+    border-radius: 15px;
+    padding: 24px;
+}
+
+.header__desc--title {
+    color: #265988;
+    padding-bottom: 8px;
+}
+
+.btn {
+    font-family: "DM Serif Display";
+    font-weight: 300;
+    font-size: 45px;
+    color: #f6c236;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 16px;
+}
+
+.btn:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+
 
 
 /* client */
 
 .client {
-    background-color: #1d3752;
+    background-color: #0f3252;
 }
