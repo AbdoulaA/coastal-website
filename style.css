@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  font-family: "Poppins";
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display";
+}
+
+section {
+  height: 100vh;
+}
+
+
+/* Navbar */
+
+nav {
+    padding: 16px 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 15vh;
+    background-color: #0f3252;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.logo__img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: top;
+    width: 150px;
+    transition: all 0.3s ease;
+}
+
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 55%;
+    transition: all 0.3s ease;
+    list-style: none;
+}
+
+.nav-link{
+    color: #f6c236;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+/* hover */
+
+
+.nav-link:hover {
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 85vh;
+    background-color: #a9c3de;
+    background-image: url(./assets/light\ tower\ coastal.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 24px;
+
+}
+
+.header__text-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__title {
+    font-size: 50px;
+    color: #0f3252;
+}
+
+.header__subtitle {
+    font-size: 40px;
+    position: absolute;
+    bottom: 125px;
+    color: #f6c236
+}
+
+.btn {
+    position: absolute;
+
+}
+
+
+/* client */
+
+.client {
+    background-color: #1d3752;
+}
