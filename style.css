@@ -92,7 +92,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: baseline;
     width: 100%;
     height: 85vh;
     background-color: #a9c3de;
@@ -115,7 +115,7 @@ header {
 }
 
 .header__title {
-    font-size: 50px;
+    font-size: 60px;
     color: #0f3252;
 }
 
@@ -130,7 +130,6 @@ header {
     position: absolute;
     top: 40%;
     height: 75px;
-    background-color:#0f3252;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -171,6 +170,8 @@ header {
     align-items: center;
     height: 100%;
     margin: 16px;
+    background-color:#0f3252;
+
 }
 
 .btn:hover {
@@ -178,11 +179,58 @@ header {
     cursor: pointer;
 }
 
+.header__picks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    translate: 0 -80%;
+}
+
+.header__pick {
+    background-image: url(./assets/lifesaver.png);
+    position: relative;
+    height: 250px;
+    width: 400px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header__pick:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    background-image: url(./assets/lifesaver\ white.png);
+}
+
+
+
+
+
+
+.pick__img {
+    scale: 1;
+    /* position: absolute;
+    left: 0;
+    top: 0;
+    transform: -50% -50%; */
+}
+
+
+.pick__title {
+    font-size: 36px;
+    font-family: Poppins;
+    color: #0f3252;
+}
+
 
 
 
 /* client */
 
-.client {
-    background-color: #0f3252;
-}
