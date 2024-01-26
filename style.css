@@ -185,14 +185,14 @@ header {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    translate: 0 -80%;
+    translate: 0 -40%;
 }
 
 .header__pick {
     background-image: url(./assets/lifesaver.png);
     position: relative;
-    height: 250px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
