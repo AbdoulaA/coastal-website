@@ -126,24 +126,27 @@ header {
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    padding: 0 56px;
+    padding: 0 64px;
 }
 
 .desc {
     width: 40vw;
-    height: fit-content;
+    height: 100%;
     background-color: #0f3252;
     padding: 16px;
     border-radius: 15px;
     color: #fff;
+    
 }
 
 .desc__border {
     border: #fff 5px solid;
     border-radius: 15px;
     padding: 8px 16px 16px 16px;
-    height: fit-content;
-
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 

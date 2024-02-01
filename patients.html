@@ -1,84 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Coastal Medical Research</title>
-        <link rel="stylesheet" href="./info.css" />
-        <script src="./app.js"></script>
-    </head>
-    <body>
-        <!-- medical research company called Coastal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coastal Medical Research</title>
+    <link rel="stylesheet" href="./info.css" />
+    <script src="./app.js"></script>
+  </head>
+  <body>
+    <!-- medical research company called Coastal-->
 
-        <!-- nav bar -->
-        <nav class="nav">
-            <div class="logo">
-                <a href="index.html">
-                    <img
-                        src="./assets/coastline trans.png"
-                        alt="Coastline Logo"
-                        class="logo__img"
-                    />
-                </a>
+    <!-- nav bar -->
+    <nav class="nav">
+      <div class="logo">
+        <a href="index.html">
+          <img
+            src="./assets/coastline trans.png"
+            alt="Coastline Logo"
+            class="logo__img"
+          />
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+        <li class="nav-item">
+          <a href="./patients.html" class="nav-link">Patients</a>
+        </li>
+        <li class="nav-item">
+          <a href="./partners.html" class="nav-link">Partnters</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- end of nav -->
+
+    <!-- header -->
+    <header class="header">
+      <div class="header__text-box">
+        <h1 class="header__title">Patients</h1>
+
+        <div class="descs">
+          <div class="desc">
+            <div class="desc__border">
+              <h2 class="desc__title">For Our Patients</h2>
+              <p class="desc__subtitle">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptas recusandae, alias provident corporis harum culpa. Ex
+                consectetur, odit itaque, voluptatum vero accusantium doloremque
+                quasi harum obcaecati amet, nulla totam ipsum repudiandae.
+                Reiciendis et a quis, magnam quaerat fugit voluptate odio
+                aliquam eaque doloremque pariatur provident necessitatibus
+                minima. Nulla totam ipsum repudiandae.
+                Reiciendis et a quis, magnam quaerat fugit voluptate odio
+                aliquam eaque doloremque pariatur provident necessitatibus
+                minima.
+              </p>
             </div>
-            <ul class="nav-links">
-                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="./patients.html" class="nav-link">Patients</a></li>
-                <li class="nav-item"><a href="./partners.html" class="nav-link">Partnters</a></li>
-            </ul>
-        </nav>
+          </div>
 
-        <!-- end of nav -->
-
-        <!-- header -->
-        <header class="header">
-            <div class="header__text-box">
-                <h1 class="header__title">Patients</h1>
-
-                <div class="descs">
-                        <div class="desc">
-                                <div class="desc__border">
-                                        <h2 class="desc__title">For Our Patients</h2>
-                                        <p class="desc__subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas recusandae, alias provident corporis harum culpa. Ex consectetur, odit itaque, voluptatum vero accusantium doloremque quasi harum obcaecati amet, nulla totam ipsum repudiandae. Reiciendis et a quis, magnam quaerat fugit voluptate odio aliquam eaque doloremque pariatur provident necessitatibus minima? Nobis cumque cupiditate similique cum distinctio repellat magnam temporibus. Ad autem recusandae voluptatum ipsa ratione debitis, facilis reiciendis placeat aperiam id? Soluta, nisi incidunt. Dignissimos, quidem. Itaque, minus.</p>
-                                </div>
-                        </div>
-
-                        <div class="desc form">
-                                <div class="desc__border">
-                                        <h2 class="desc__title">Ask Us Your Questions</h2>
-                                        <form>
-                                                <div class="form-group">
-                                                        <label for="name">Name:</label>
-                                                        <input type="text" id="name" name="name" required>
-                                                </div>
-                                                <div class="form-group">
-                                                        <label for="email">Email:</label>
-                                                        <input type="email" id="email" name="email" required>
-                                                </div>
-                                                <div class="form-group">
-                                                        <label for="phone">Phone Number:</label>
-                                                        <input type="tel" id="phone" name="phone" required>
-                                                </div>
-                                                <div class="form-group">
-                                                        <label for="message">Message:</label>
-                                                        <textarea id="message" name="message" required></textarea>
-                                                </div>
-                                                <button type="submit" class="submit">Submit</button>
-                                        </form>
-                                </div>
-                        </div>
+          <div class="desc form">
+            <div class="desc__border">
+              <h2 class="desc__title">Ask Us Your Questions</h2>
+              <form>
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required />
                 </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number:</label>
+                  <input type="tel" id="phone" name="phone" required />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit">Submit</button>
+              </form>
             </div>
-        </header>
-    </body>
-    <footer>
-        <ul class="nav-links">
-            <li><a href="index.html" class="footer__link">Home</a></li>
-            <li><a href="#" class="footer__link">About Us</a></li>
-            <li><a href="#" class="footer__link">Contact Us</a></li>
-            <li><a href="patients.html" class="footer__link">For Patients</a></li>
-            <li><a href="partners.html" class="footer__link">For Partners</a></li>
-        </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+  <footer>
+    <ul class="nav-links">
+      <li><a href="index.html" class="footer__link">Home</a></li>
+      <li><a href="#" class="footer__link">About Us</a></li>
+      <li><a href="patients.html" class="footer__link">For Patients</a></li>
+      <li><a href="partners.html" class="footer__link">For Partners</a></li>
+    </ul>
   </footer>
 </html>
