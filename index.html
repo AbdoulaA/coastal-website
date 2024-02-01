@@ -1,45 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coastal Medical Research</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="./app.js"></script>
-</head>
-<body>
-    <!-- medical research company called Coastal-->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Coastal Medical Research</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script src="./app.js"></script>
+    </head>
+    <body>
+        <!-- medical research company called Coastal-->
 
-    <!-- nav bar -->
-    <nav class="nav">
-        <div class="logo">
-            <a href="index.html">
-                <img src="./assets/coastline trans.png" alt="Coastline Logo" class="logo__img">
-            </a>
-        </div>        <ul class="nav-links">
-            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
-        </ul>
-    </nav>
-    <!-- end of nav -->
+        <!-- nav bar -->
+        <nav class="nav">
+            <div class="logo">
+                <a href="index.html">
+                    <img
+                        src="./assets/coastline trans.png"
+                        alt="Coastline Logo"
+                        class="logo__img"
+                    />
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="./patients.html" class="nav-link">Patients</a></li>
+                <li class="nav-item"><a href="./partners.html" class="nav-link">Partnters</a></li>
+            </ul>
+        </nav>
+        <!-- end of nav -->
 
-    <!-- header -->
-    <header class="header">
-        <div class="header__text-box">
-            <h1 class="header__title">Coastal Medical Research</h1>
-            <h2 class="header__subtitle">Only Getting Brighter.</h2>
-        </div>
+        <!-- header -->
+        <header class="header">
+            <div class="header__text-box">
+                <h1 class="header__title">Coastal Medical Research</h1>
+                <h2 class="header__subtitle">Only Getting Brighter.</h2>
+            </div>
         <div class="header__picks">
-            <div class="header__pick" onmouseover="sideLight(event)">
-                <!-- <img src="./assets/lifesaver.png" alt="" class="pick__img"> -->
-                <h1 class="pick__title">For Patients</h1>
-            </div>
-            <div class="header__pick" onmouseover="sideLight(event)">
-                <!-- <img src="./assets/lifesaver.png" alt="" class="pick__img"> -->
-                <h1 class="pick__title">For Partners</h1>
-            </div>
+                <a href="patients.html" class="header__pick" onmouseover="sideLight(event)">
+                        <!-- <img src="./assets/lifesaver.png" alt="" class="pick__img"> -->
+                        <h1 class="pick__title">For Patients</h1>
+                </a>
+                <a href="partners.html" class="header__pick" onmouseover="sideLight(event)">
+                        <!-- <img src="./assets/lifesaver.png" alt="" class="pick__img"> -->
+                        <h1 class="pick__title">For Partners</h1>
+                </a>
         </div>
-    </header>
-</body>
+        </header>
+
+    </body>
+    <footer>
+        <ul class="nav-links">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="#" class="footer__link">About Us</a></li>
+            <li><a href="#" class="footer__link">Contact Us</a></li>
+            <li><a href="patients.html" class="footer__link">For Patients</a></li>
+            <li><a href="partners.html" class="footer__link">For Partners</a></li>
+        </ul>
+  </footer>
 </html>

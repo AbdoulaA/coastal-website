@@ -96,12 +96,12 @@ header {
     width: 100%;
     height: 85vh;
     background-color: #a9c3de;
-    background-image: url(./assets/light\ tower\ coastal.png);
+    background-image: url(./assets/light\ tower\ coastal\ white\ right.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    padding: 24px;
+    padding: 16px;
 
 }
 
@@ -109,135 +109,134 @@ header {
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: space-between;
+    justify-content: top;
     align-items: center;
 
 }
 
 .header__title {
-    font-size: 60px;
+    font-size: 48px;
     color: #0f3252;
+    padding-bottom: 16px;
 }
 
-.header__subtitle {
-    font-size: 40px;
-    position: absolute;
-    bottom: 50px;
-    color: #f6c236
-}
-
-.header__btns {
-    position: absolute;
-    top: 40%;
-    height: 75px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.header__desc {
-    position: absolute;
-    top: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.header__desc--text {
-    color: #fff;
-    font-family: Poppins;
-    font-weight: 500;
-    text-align: center;
-    background-color:#0f3252;
-    border-radius: 15px;
-    padding: 24px;
-}
-
-.header__desc--title {
-    color: #0f3252;
-    padding-bottom: 8px;
-}
-
-.btn {
-    font-family: "DM Serif Display";
-    font-weight: 300;
-    font-size: 45px;
-    color: #f6c236;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    margin: 16px;
-    background-color:#0f3252;
-
-}
-
-.btn:hover {
-    color: #fff;
-    cursor: pointer;
-}
-
-.header__picks {
+.descs {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    translate: 0 -40%;
+    width: 100vw;
+    padding: 0 56px;
 }
 
-.header__pick {
-    background-image: url(./assets/lifesaver.png);
-    position: relative;
-    height: 350px;
-    width: 350px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+.desc {
+    width: 40vw;
+    height: fit-content;
+    background-color: #0f3252;
+    padding: 16px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.desc__border {
+    border: #fff 5px solid;
+    border-radius: 15px;
+    padding: 8px 16px 16px 16px;
+    height: fit-content;
+
+
+}
+
+.desc__title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #f6c236;
+    margin-bottom: 4px;
+}
+
+.desc__subtitle {
+    font-size: 20px;
+}
+
+
+
+.form-group {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    margin: 8px;
+    width: 95%;
 
 }
 
-.header__pick:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: all 0.3s ease;
-    background-image: url(./assets/lifesaver\ white.png);
+label {
+    padding-bottom: 2px;
 }
 
-
-
-
-
-
-.pick__img {
-    scale: 1;
-    /* position: absolute;
-    left: 0;
-    top: 0;
-    transform: -50% -50%; */
+input {
+    border: #fff 3px solid;
+    border-radius: 3px;
+    background-color: #0f3252;
+    color: #fff;
+    padding: 4px;
 }
 
+#message {
+    height: 75px;
+    border: #fff 3px solid;
+    border-radius: 5px;
+    background-color: #0f3252;
+    color: #fff;
+    padding: 4px;
+}
 
-.pick__title {
-    font-size: 36px;
-    font-family: Poppins;
+.form {
+    transition: all 200ms ease;
+}
+
+.form:hover {
+    background-color: #f6c236;
+    color: #0f3252;
+}
+.form:hover .desc__title {
     color: #0f3252;
 }
 
+.submit {
+    background-color: #0f3252;
+    border: #f6c236 3px solid;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 8px;
+    color: #fff;
+    font-family: DM Serif Display;
+    font-size: 24px;
+    transition: all 200ms ease;
+}
 
+.form:hover .submit {
+    border: #0f3252 3px solid;
+    background-color: #f6c236;
+    color: #0f3252;
+}
 
+.submit:hover {
+    background-color: #fff !important;
+    color: #0f3252 !important;
+}
+
+.org {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+}
 
 /* footer */
 
 footer {
-    width: 100%;
+    width: 60%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     position: absolute;
     bottom: 0;
     padding: 4px;
@@ -248,3 +247,4 @@ footer {
     font-size: 12px;
     font-weight: 500;
 }
+
